@@ -1,0 +1,137 @@
+
+    /* General Styling */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      background: #fff;
+      padding: 20px;
+      max-width: 400px;
+      margin: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    h1,
+    h2 {
+      color: #333;
+    }
+
+    /* Circle Layout */
+    .circle-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 0;
+    }
+
+    .file-image {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 3px solid #007bff;
+      padding: 10px;
+      background: #fff;
+    }
+
+    /* Payment Section */
+    .payment-section {
+      margin-top: 20px;
+    }
+
+    select {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      margin-bottom: 10px;
+    }
+
+    .pay-form input[type="submit"] {
+      background: #28a745;
+      color: #fff;
+      border: none;
+      padding: 10px;
+      width: 100%;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background 0.3s;
+    }
+
+    .pay-form input[type="submit"]:hover {
+      background: #218838;
+    }
+
+    /* Progress Bar */
+    .progress-container {
+      width: 100%;
+      background: #ddd;
+      border-radius: 5px;
+      overflow: hidden;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .progress-bar {
+      height: 10px;
+      width: 0;
+      background: #007bff;
+      transition: width 0.5s;
+    }
+
+    #progress-text {
+      margin-top: 5px;
+      font-size: 14px;
+    }
+
+    /* File Unlock Section */
+    .file-unlocked {
+      display: none;
+      margin-top: 20px;
+      background: #d4edda;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #c3e6cb;
+    }
+
+    .file-unlocked a img {
+      width: 150px;
+      margin-top: 10px;
+    }
+
+    /* Payees Images */
+    .payees-container {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .payee-image {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 2px solid #28a745;
+    }
+    /* Check Progress Button */
+    #check-progress-btn {
+      background: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px;
+      width: 200px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+
+    #check-progress-btn:hover {
+      background: #0056b3;
+    }
